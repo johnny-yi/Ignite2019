@@ -83,7 +83,7 @@ steps:
   displayName: Provision Environment
   inputs:
     deploymentScope: 'Resource Group'
-    ConnectedServiceName: 'WorkshopAzure'
+    ConnectedServiceName: '129'
     subscriptionName: 'e16d929e-2ebf-4445-805e-c032ef6c4559'
     action: 'Create Or Update Resource Group'
     resourceGroupName: '$(adhocrg)'
