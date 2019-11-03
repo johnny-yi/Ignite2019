@@ -83,7 +83,7 @@ steps:
   displayName: Provision Environment
   inputs:
     deploymentScope: 'Resource Group'
-    ConnectedServiceName: '129'
+    ConnectedServiceName: 'WorkshopAzure'
     subscriptionName: 'e16d929e-2ebf-4445-805e-c032ef6c4559'
     action: 'Create Or Update Resource Group'
     resourceGroupName: '$(adhocrg)'
@@ -141,7 +141,7 @@ steps:
     AuthenticationType: 'server'
     ServerName: '$(adhocrg).database.windows.net'
     DatabaseName: 'Events'
-    SqlUsername: 'dylan'
+    SqlUsername: 'workshop129@devopsdylan.com'
     SqlPassword: 'P2ssw0rd'
     deployType: 'DacpacTask'
     DeploymentAction: 'Publish'
@@ -157,7 +157,7 @@ steps:
     AuthenticationType: 'server'
     ServerName: '$(adhocrg).database.windows.net'
     DatabaseName: 'Queries'
-    SqlUsername: 'dylan'
+    SqlUsername: 'workshop129@devopsdylan.com'
     SqlPassword: 'P2ssw0rd'
     deployType: 'DacpacTask'
     DeploymentAction: 'Publish'
@@ -187,7 +187,7 @@ steps:
     ConnectedServiceName: 'WorkshopAzure'
     subscriptionName: 'e16d929e-2ebf-4445-805e-c032ef6c4559'
     action: 'DeleteRG'
-    location: 'West US 2'
+    location: 'Central US'
     resourceGroupName: '$(adhocrg)'
   enabled: true
 
