@@ -87,7 +87,7 @@ steps:
     subscriptionName: 'e16d929e-2ebf-4445-805e-c032ef6c4559'
     action: 'Create Or Update Resource Group'
     resourceGroupName: '$(adhocrg)'
-    location: 'West US 2'
+    location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)\deploy\Azure ARM\ArmTemplate.json'
     overrideParameters: '-appname $(adhocrg)'
